@@ -1,0 +1,51 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cat {
+    border: 5px solid #1eff00;
+}
+
+.camel {
+    border: 5px solid #c9bf07;
+}
+
+.horse {
+    border: 5px solid #ee0b0b;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+body {
+    background-color: aquamarine;
+}

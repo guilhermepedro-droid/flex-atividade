@@ -1,0 +1,43 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    order: -1;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+ 
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+.cat {
+    border: 5px solid #1eff00;
+    align-items: flex-start;
+}
+
+
+.camel {
+    border: 5px solid #c9bf07;
+    
+}
+
+
+.horse {
+    border: 5px solid #ee0b0b;
+
+}
+
+
+
+body{
+    background-color: aquamarine;
+}   
